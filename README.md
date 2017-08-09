@@ -1,3 +1,25 @@
 # cloverx-logger
-`working....`  
-思路参照以前写的一篇博文：[node 日志规范化与分析监控](https://github.com/plusmancn/plusmancn.github.com/blob/master/2016/A8-log-elk.md)
+
+## Install
+```shell
+npm i cloverx-logger --save
+```
+
+## Usage
+```javascript
+'use strict';
+cont Logger = require('cloverx-logger');
+
+/**
+ * 构造函数
+ * @param {Object} options
+ * @param {String} options.logDir - 日志输出目录，如果为空，则不记录到文件
+ * @param {Boolean} options.printToConsole - 是否输出日志到终端，默认 true
+ * @param {string} options.level - 日志输出起始级别
+ */
+let logger = new Logger({
+    // ...
+});
+
+logger.trace(...); // 同 console.log 的传参方式
+```

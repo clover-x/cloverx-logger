@@ -43,7 +43,6 @@ tags
 
 ### Node ###
 # Logs
-logs
 *.log
 npm-debug.log*
 
