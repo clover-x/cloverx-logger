@@ -108,7 +108,6 @@ class Logger {
                 continue;
             }
             fs.closeSync(streamPre[key].fd);
-            console.log(streamPre[key].fd);
         }
 
         // 计算下次 rotate 时间
