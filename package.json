@@ -1,6 +1,6 @@
 {
   "name": "cloverx-logger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "🍀The logger of clover-x, which is elk friendly",
   "main": "index.js",
   "scripts": {
